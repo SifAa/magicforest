@@ -1,0 +1,30 @@
+// Master stylesheet
+
+// Bootstrap Required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+// Bootstrap Optional
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/code";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/transitions";
+
+@import "../bootstrap/scss/buttons";
+@import "../bootstrap/scss/nav";
+@import "../bootstrap/scss/navbar";
+@import "../bootstrap/scss/utilities";
+@import "../bootstrap/scss/forms";
+@import "../bootstrap/scss/card";
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Forum|Playball&display=swap');
+
+// Mine egne styles
+@import "variables";
+@import "mixins";
+@import "general";
+@import "classes";

@@ -1,0 +1,13 @@
+// My style classes
+.fairy {
+    color: $pink;
+}
+.witchy {
+    color: $witchy;
+}
+.berry {
+    color: $berryred;
+}
+.btn-game {
+    @include btn-game
+}

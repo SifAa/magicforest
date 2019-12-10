@@ -1,0 +1,26 @@
+// My mixins
+
+// Button
+@mixin btn-game {
+    font-family: $primary-font;
+    color: $purple;
+    background-color: $yellow;
+    border-color: #fff0b4;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #fff0b4;
+        color: $purple;
+    }
+}
+
+// Navbar
+@mixin clouds {
+    font-family: $primary-font;
+    font-weight: 700;
+    border: none;
+    a {
+        color: #f5ffff;
+        text-shadow: 1px 1px $darkblue;
+    }
+}

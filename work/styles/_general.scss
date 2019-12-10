@@ -1,0 +1,91 @@
+// Styles for elements that repeats and are connected
+body {
+    font-family: $primary-font;
+    color: $darkblue;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.container-fluid {
+    max-width: 1170px;
+}
+
+h1 {
+    color:$purple;
+    font-family: $secondary-font;
+}
+
+// Main
+.main {
+    min-height: 83vh;
+    background-image: url('../media/img/trees.png');
+    background-size: cover;
+    align-items: center;
+    section {
+        color: black;
+        a {
+            color: $purple;
+            &:hover {
+                color: $purple;
+                text-decoration: none;
+            } 
+        }
+    }
+}
+form {
+    a {
+        color: $purple;
+        &:hover {
+            color: $purple;
+            text-decoration: none;
+        }
+    }
+}
+
+// Navbar
+.navbar {
+    background-color: $skyblue;
+    @include clouds;
+    min-height: 8vh;
+}
+
+.fas.fa-bars {
+    color: #f5ffff;
+    text-shadow: 1px 1px $darkblue;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    font-size: 1.15rem;
+}
+
+.dropdown-menu.show {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border-radius: 0;
+    margin: 0 0 0;
+    background-color: $skyblue;
+    @include clouds;
+    border:1px solid $skyblue;
+    .dropdown-item:hover {
+        background-color: #13d3de;
+    }
+}
+
+// Footer
+footer {
+    background: $green;
+    color: $brown;
+    min-height: 8vh;
+    font-weight: 500;
+    a {
+        color: $brown;
+        &:hover {
+            text-decoration: none;
+            color: $brown;
+        }
+    }
+}
