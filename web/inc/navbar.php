@@ -7,6 +7,7 @@
         $userNav = "<a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'> $username
         </a> 
         <div class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
+          <a class='dropdown-item  text-lg-right' href='profile.php'>Profile</a>
           <a class='dropdown-item  text-lg-right' href='logout.php'>Log out</a>
         </div>";
       }else{

@@ -3,6 +3,12 @@
     require_once('config/db.php');
     include('inc/game-header.php');
 ?>
+<?php
+    // Check if logged in, if not redirect to front page
+    if(empty($_SESSION['access'])){
+        header("location:index.php");
+    }
+?>
 
 <div class="main row align-items-end">
             <div class="col-12 col-md-6 offset-md-3 mb-4">
