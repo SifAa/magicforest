@@ -22,7 +22,7 @@
         if($flag == true){
             
             // salter password, pakker det ind i tilfældige værdier
-            $salt = "nflkdspi¨sej678ipgv" . $pass1 . "kgaehagedoashg";
+            $salt = "ThisIs" . $pass1 . "DifferentOnline";
 
             // kryptere, gør det hele uforståeligt
             $hashed = hash('sha512', $salt);
